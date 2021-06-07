@@ -16,10 +16,10 @@ VALUES
     ("Lorekeeper", 36129.60, 4),
     ("Corporate Controller", 118461, 4);
 
-INSERT INTO employee (first_name, last_name, role_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-    ("John", "Doe", 3),
-    ("Brad", "Kashtack", 6),
-    ("Mike", "Chan", 2),
-    ("Sarah", "Connor", 8),
-    ("Reade", "Anderson", 7);
+    ("John", "Doe", 3, 2),
+    ("Brad", "Kashtack", 6, null),
+    ("Mike", "Chan", 2, 5),
+    ("Sarah", "Connor", 8, 5),
+    ("Reade", "Anderson", 7, null);
